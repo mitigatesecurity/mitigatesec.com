@@ -1,0 +1,15 @@
+# Hey, robots! Do not fucking crawl following directories.  
+# :v
+
+User-agent: *
+Disallow: /pocs/
+Disallow: /testing/
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: SeznamBot
+Request-rate: 1/10s
+Disallow: /pocs/
+Disallow: /testing/
+
